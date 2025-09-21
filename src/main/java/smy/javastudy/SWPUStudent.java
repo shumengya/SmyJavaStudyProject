@@ -1,4 +1,4 @@
-package JavaBasicStudy;
+package smy.javastudy;
 
 public class SWPUStudent {
     private String name; //学生姓名
@@ -11,6 +11,7 @@ public class SWPUStudent {
     private String address; //住址
     private String gender; //性别
 
+    //学生类构造函数
     public SWPUStudent(String name, int age, String studentID, String major, double gpa, String email, String phoneNumber, String address, String gender) {
         this.name = name;
         this.age = age;
@@ -23,7 +24,7 @@ public class SWPUStudent {
         this.gender = gender;
     }
 
-
+    //展示学生基本信息
     public void ShowInfo() {
         System.out.println("==================================");
         System.out.println("西南石油大学学生信息：");
@@ -42,6 +43,7 @@ public class SWPUStudent {
 
 //======================对学生属性进行封装==================================
 
+    //姓名
     public String getName() {
         return name;
     }
@@ -51,7 +53,7 @@ public class SWPUStudent {
     }
 
 
-
+    //年龄
     public int getAge() {
         return age;
     }
@@ -61,7 +63,7 @@ public class SWPUStudent {
     }
 
 
-
+    //学生ID
     public String getStudentID() {
         return studentID;
     }
@@ -71,7 +73,7 @@ public class SWPUStudent {
     }
 
 
-
+    //专业
     public String getMajor() {
         return major;
     }
@@ -81,7 +83,7 @@ public class SWPUStudent {
     }
 
 
-
+    //学分绩点
     public double getGpa() {
         return gpa;
     }
@@ -91,7 +93,7 @@ public class SWPUStudent {
     }
 
 
-
+    //邮箱
     public String getEmail() {
         return email;
     }
@@ -101,7 +103,7 @@ public class SWPUStudent {
     }
 
 
-
+    //电话号码
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -111,7 +113,7 @@ public class SWPUStudent {
     }
 
 
-
+    //家庭住址
     public String getAddress() {
         return address;
     }
@@ -121,7 +123,7 @@ public class SWPUStudent {
     }
 
 
-
+    //年龄
     public String getGender() {
         return gender;
     }
