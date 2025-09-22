@@ -1,4 +1,4 @@
-package smy.javastudy;
+package smy.javastudy.aiwrite;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -84,6 +84,6 @@ public class NumberAndMathDemo {
         // 获取一个范围内的随机整数，例如 [1, 10]
         int randomInt = (int) (Math.random() * 10) + 1;
         System.out.println("一个 1 到 10 之间的随机整数: " + randomInt);
-        System.out.println("\n=========================Math类的用法=========================");
+        System.out.println("\n=========================Math类的用法=========================\n");
     }
 }

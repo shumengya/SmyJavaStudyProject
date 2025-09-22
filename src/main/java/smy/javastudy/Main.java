@@ -1,6 +1,8 @@
 package smy.javastudy;
 
 
+import smy.javastudy.aiwrite.NumberAndMathDemo;
+import smy.javastudy.classes.*;
 
 public class Main {
     final double PI = 3.14159;
@@ -10,23 +12,64 @@ public class Main {
 
     //项目唯一主函数
     public static void main(String[] args) {
-        //TIP 当文本光标位于高亮显示的文本处时按 <shortcut actionId="ShowIntentionActions"/>
-        // 查看 IntelliJ IDEA 建议如何修正。
-        System.out.printf("Hello and welcome!\n");
-        Main main = new Main();
-        main.testHuHangTao();
+        //测试本地方法
+        if(false){
+            System.out.printf("Hello and welcome!\n");
+            Main main = new Main();
+            main.testHuHangTao();
+        }
 
-        JavaBasicDataType dataType = new JavaBasicDataType();
-        dataType.ShowDataTypesInfo();
 
-        GrammarPractice grammarPractice = new GrammarPractice();
-        grammarPractice.Exchange("刘道熙");
-        grammarPractice.Exchange("唐伟");
-        grammarPractice.Exchange("树萌芽");
+        //测试基本数据类型
+        if(false){
+            JavaBasicDataType dataType = new JavaBasicDataType();
+            dataType.ShowDataTypesInfo();
+        }
 
-        NumberAndMathDemo demo = new NumberAndMathDemo();
-        demo.numberClassUsage();
-        demo.mathClassUsage();
+
+        //测试基本语法
+        if(false){
+            GrammarPractice grammarPractice = new GrammarPractice();
+            grammarPractice.Exchange("刘道熙");
+            grammarPractice.Exchange("唐伟");
+            grammarPractice.Exchange("树萌芽");
+
+        }
+
+
+        //ai写的Number类和Math类的用法
+        if(false){
+            NumberAndMathDemo demo = new NumberAndMathDemo();
+            demo.numberClassUsage();
+            demo.mathClassUsage();
+        }
+
+        //测试Number类和Math类用法
+        if (false){
+            MathClass mathClass = new MathClass();
+            mathClass.MathClass();
+            NumberClass numberClass = new NumberClass();
+            numberClass.NumberClass();
+        }
+
+        //测试Charactor类用法
+        if(false){
+            CharacterClass characterClass = new CharacterClass();
+            characterClass.CharacterClass();
+        }
+
+        //测试String类用法
+        if(false){
+            StringClass stringClass = new StringClass();
+            stringClass.StringClass();
+        }
+
+        //测试StringBuffer
+        if (true){
+            StringBufferClass stringBufferClass = new StringBufferClass();
+            stringBufferClass.StringBufferClass();
+        }
+
     }
 
     public void testHuHangTao(){
